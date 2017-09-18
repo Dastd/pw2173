@@ -1,0 +1,20 @@
+/*nota: todo en orden alfabetico
+en html no debe de escribirse nada que de estilo, solo en estilos
+*/
+pseudoelementos @
+selectores - cambian atributos
+	etiquetas ejem. p,html,div,
+	identificador ejem. #id
+	clases ejem. .class
+	media queries - diseño adaptativo
+
+
+	body{
+background: blue;
+/*#1A45AB;*/
+/*rgba(34,56,2,0.2);*/
+/*rgb(255,0,0);*/
+color: white;
+width: 1024px;
+
+	}
