@@ -3,7 +3,8 @@ body{
 }
 
 header nav{
-		background: #FFA500;
+		background: linear-gradient(to top,orange,orange,white,orange);
+		
 	border-radius: 5px;
 	margin-top: 40px;
 	padding: 1px 0px 1px 0px;
@@ -34,19 +35,22 @@ nav ul li{
 	vertical-align: top;
 }
 #art2 nav{
-	background: #FFA500;
+			background: linear-gradient(to top,orange,orange,white,orange);
+
+	/*background: #FFA500;*/
 	border-radius: 5px;
-	margin-left: 150px;
+/*	margin-left: 150px;*/
 	margin-top: 40px;
-	padding: 1px 0px 1px 0px;
+	margin-left: 40px;
+	/*padding: 1px 0px 1px 0px;*/
 	width: 60%;
 }
 #art2 nav ul li{
 	
-	background: #FFA500;
+	/*background: #FFA500;*/
 	border-radius: 5px;
-	margin-left: 150px;
-	padding: 1px 0px 1px 0px;
+	/*margin-left: 150px;*/
+	padding: 5px;
 	width: 20%;
 }
 

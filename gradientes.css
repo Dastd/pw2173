@@ -1,0 +1,96 @@
+article{
+	border-radius: 5px;
+/*	border: 1px solid blue;*/
+	height: 50px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+#uno{
+	/*si no soporta gradientes*/
+	background: red;
+	/*opera*/
+	background: -o-linear-gradient(red,yellow);
+
+	/*safari*/
+	background: -webkit-linear-gradient(red,yellow);
+
+	/*firefox*/
+	background: -moz-linear-gradient(red,yellow);
+
+	/*para todos*/
+	background: linear-gradient(red,yellow);
+}
+
+#dos{
+	
+	/*si no soporta gradientes*/
+	background: red;
+	/*opera*/
+	background: -o-linear-gradient(to left,red,yellow);
+
+	/*safari*/
+	background: -webkit-linear-gradient(to left,red,yellow);
+
+	/*firefox*/
+	background: -moz-linear-gradient(to left,red,yellow);
+
+	/*para todos*/
+	background: linear-gradient(to left,red,yellow);
+
+}
+
+#tres{
+	
+	/*si no soporta gradientes*/
+	background: red;
+	/*opera*/
+	background: -o-linear-gradient(to right,red,yellow);
+
+	/*safari*/
+	background: -webkit-linear-gradient(to right,red,yellow);
+
+	/*firefox*/
+	background: -moz-linear-gradient(to right,red,yellow);
+
+	/*para todos*/
+	background: linear-gradient(to right,red,yellow);
+
+}
+
+#cuatro{
+	
+	/*si no soporta gradientes*/
+	background: red;
+	/*opera*/
+	background: -o-linear-gradient(to right bottom,red,yellow);
+
+	/*safari*/
+	background: -webkit-linear-gradient(to right bottom,red,yellow);
+
+	/*firefox*/
+	background: -moz-linear-gradient(to right bottom,red,yellow);
+
+	/*para todos*/
+	background: linear-gradient(to right bottom,red,yellow);
+
+}
+
+
+#cinco{
+	
+	/*si no soporta gradientes*/
+	background: red;
+	/*opera*/
+	background: -o-linear-gradient(to left bottom,red,yellow);
+
+	/*safari*/
+	background: -webkit-linear-gradient(to left bottom,red,yellow);
+
+	/*firefox*/
+	background: -moz-linear-gradient(to left bottom,red,yellow);
+
+	/*para todos*/
+	background: linear-gradient(to left bottom,red,yellow);
+
+}
