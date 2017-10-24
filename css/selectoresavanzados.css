@@ -48,6 +48,47 @@ div p{
 h2 + p{
 	color: green;
 }
+/*seleccionar todos los hermanos del tipo de elemento especificado hermano general*/
 h2 ~ p{
 	color: grey;
 }
+/*poner en color rojo el texto de los section menos el id="referencias"*/
+#Resumen,#Experimento,#Pruebas,#Resultados,#Conclusiones{
+	color: tomato;
+}
+/*seleccionar todos menos la que no quiero*/
+section:not(#Referencias){
+	color: hotpink;
+
+}
+/*seleccionar elementos Li pares e impares*/
+Li:nth-child(odd)  /*Impar */
+{
+
+	color: green;
+}
+
+Li:nth-child(even)/*Par*/
+{
+	color: blue;
+}
+Li:nth-child(5){
+	color: red;
+}
+Li:nth-last-child(1) /*ultimo elemento hacia arriba*/ {
+	color: yellow;
+}
+/*Primer y ultimo elemento*/
+article:nth-child(1){
+	color: gray;
+}
+
+article:last-child{
+	color: yellow;
+}
+/*primera linea de un parrafo*/
+p:first-line{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
