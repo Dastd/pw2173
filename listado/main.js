@@ -1,5 +1,6 @@
-const app=require('electron').app;
-const BrowserWindow = require('electron').BrowserWindow;
+// const app=require('electron').app;
+// const BrowserWindow = require('electron').BrowserWindow;
+const {app, BrowserWindow} = require('electron');
 const path = require('path'); //muestra la ruta del archivo
 const url = require('url'); //carga una pagina
 // ECMASCRIPT = 6

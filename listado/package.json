@@ -1,17 +1,16 @@
 {
-  "name": "calculadora2",
+  "name": "listado",
   "version": "1.0.0",
-  "description": "calculadora electronica",
+  "description": "Listado de usuarios de random user",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "empaqueta": "electron-packager . calculadora --overwrite --icon=icono.icns --asar",
+  	"start":"electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "calculadora",
-    "escritorio",
-    "primero"
+    "electron",
+    "clase",
+    "pw"
   ],
   "author": "Huemac",
   "license": "MIT",
